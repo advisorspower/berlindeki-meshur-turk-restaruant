@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Tamil&display=swap');
+
+.container-bg {
+    background-image: url(../images/menu-bg.png);
+}
+
+.menu-slider {
+    margin-top: 50px;
+}
+
+.menu-slider .head h1 {
+    line-height: 130px;
+}
+
+.menu-slider .head h4 {
+    font-size: 30px;
+    color: #f3cc30;
+    font-weight: 400;
+}
+
+header nav ul.menu li .nav-link {
+    color: white;
+}
+
+header .searchbar input {
+    border-bottom: 2px solid white;
+    background: #da2c29;
+}
+
+header .searchbar input::placeholder,
+header .searchbar input[type="text"] {
+    color: white;
+}
+
+.icon svg {
+    color: white;
+}
+
+header a.callus span {
+    color: #000;
+}
+
+header a.callus {
+    color: white;
+}
+
+.menu-slider .slide .content .end h1.title {
+    color: white;
+}
+
+.menu-slider .slide .content .end .price {
+    font-size: 37.7px;
+    color: #f3cc30;
+}
+
+.menu-slider .slide .content .end {
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+    header nav ul.menu li .nav-link {
+        color: #000;
+    }
+
+    header .searchbar input {
+        border-bottom: 2px solid black;
+        background: #fff;
+    }
+
+    header .searchbar input::placeholder,
+    header .searchbar input[type="text"] {
+        color: black;
+    }
+
+    header a.callus {
+        color: black;
+    }
+
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    max-height: 7rem;
+    height: 7rem;
+}
+.boxes h2{
+    margin-top: 2rem;
+    font-family: 'Tiro Tamil', serif;
+}
+
+.recommended .recommended-categories li.category0 a.active {
+    background: #fff;
+    color: #da2c29;
+}
+
+.recommended .recommended-categories li.category0 a:hover {
+    background: #fff;
+    color: #da2c29;
+    transition: all 200ms linear;
+}
+
+.menu-item p {
+    font-size: 17px;
+    font-family: 'Tiro Tamil', serif;
+}
+
+.menu-item p span {
+    color: rgb(193, 190, 190);
+}
+
+.menu-item .menu-price {
+    font-size: 17px;
+    font-family: 'Tiro Tamil', serif;
+    color: #da2c29;
+    font-weight: bold;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    background-image: url(../images/bottom-bg.png);
+}
+
+.left-menu,
+.right-menu {
+    margin-top: 3%;
+}
+
+.left-menu h2 {
+    margin-top: 3rem;
+    font-size: 33px;
+    font-weight: 400;
+    font-family: 'Tiro Tamil', serif;
+    color: #5a2728;
+}
+
+.right-menu h2 {
+    margin-top: 3rem;
+    font-size: 33px;
+    font-weight: 400;
+    font-family: 'Tiro Tamil', serif;
+    color: #5a2728;
+}
+
+.right-menu h4 {
+    font-family: 'Tiro Tamil', serif;
+    font-weight: 600;
+}
+
+.left-menu h2 span {
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.eyes {
+    width: 50px;
+}
+
+.menu-items {
+    margin-top: 40px;
+}
+
+.right-menu {
+    width: 45%;
+}
+
+.left-menu {
+    width: 45%;
+}
+.bg, .boxes{
+    background-image: url(../images/bottom-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.boxes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.page-half {
+    width: 45%;
+    height: 100% !important;
+}
+
+@media screen and (max-width: 768px) {
+    .menus {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url(../images/bottom-bg.png);
+    }
+    .boxes {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .page-half {
+        width: 100%;
+        height: 100% !important;
+    }
+
+    .right-menu {
+        width: 100%;
+    }
+
+    .left-menu {
+        width: 100%;
+    }
+
+    .left-menu h2 {
+        font-size: 23px;
+        font-weight: 400;
+        font-family: 'Tiro Tamil', serif;
+        color: #5a2728;
+    }
+
+    .left-menu h2 span {
+        font-weight: bold;
+        font-size: 14px;
+
+    }
+
+    .right-menu h2 {
+        font-size: 23px;
+        font-weight: 400;
+        font-family: 'Tiro Tamil', serif;
+        color: #5a2728;
+    }
+}
